@@ -1,0 +1,32 @@
+@charset 'utf-8';
+
+// ==========================================================================
+// Sassy Starter by Mina Markham
+// A SMACSS-based starter toolkit for SCSS projects
+//
+// The toolkit uses recommendations from Scalable and Modular Architecture for CSS (SMACSS)
+// @link http://smacss.com/book
+//
+// Site:    https://minamarkham.github.io/sassy-starter
+// Author:  Mina Markham
+// Email:   mina@mina.codes
+// Date:    10/25/15
+// ==========================================================================
+
+@import "base/index";
+
+@import "libs/index";
+
+@import "utilities/index";
+
+@import "atoms/index";
+@import "molecules/index";
+@import "organisms/index";
+
+@import "layout/index";
+
+@import "states/index";
+
+@import "themes/index";
+
+@import "overrides/index";
