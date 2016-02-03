@@ -1,0 +1,22 @@
+#l-landing-main {
+	li {
+		@include span-columns(4);
+
+		&:nth-child(3n) {
+			@include omega;
+		}
+
+		&:nth-child(7n) {
+			@include span-columns(12);
+		}
+	}
+
+	a {
+		display: block;
+
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+}

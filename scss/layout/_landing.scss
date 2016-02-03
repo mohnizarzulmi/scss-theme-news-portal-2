@@ -1,0 +1,14 @@
+#l-landing-main {
+	@include outer-container;
+
+	section {
+		@include span-columns(9);
+		@include shift(3);
+	}
+
+	aside {
+		@include span-columns(3);
+		@include shift(-12);
+	}
+
+}
