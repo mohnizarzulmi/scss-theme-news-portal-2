@@ -1,9 +1,21 @@
 #l-article {
 	@include outer-container;
 
-	article {
+	#l-article-content {
 		@include span-columns(8);
 		@include shift(4);
+
+		#l-article-recommended-news {
+			@include outer-container;
+
+			ul {
+				@include span-columns(6);
+			}
+		}
+
+		#l-article-another-news {
+			
+		}
 	}
 
 	aside {

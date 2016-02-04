@@ -21,3 +21,7 @@
 @import "bitters/tables";
 @import "bitters/typography";
 @import "bitters/variables";
+
+body {
+	@include font-smoothing(antialiased);
+}

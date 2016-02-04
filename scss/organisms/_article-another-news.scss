@@ -1,0 +1,13 @@
+#l-article-another-news {
+	ul {
+		@include outer-container;
+	}
+
+	li {
+		@include span-columns(3);
+	}
+
+	li:nth-child(4n) {
+		@include omega;
+	}
+}
