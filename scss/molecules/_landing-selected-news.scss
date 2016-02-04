@@ -1,0 +1,14 @@
+aside#l-landing-main,
+aside#l-landing-minisite-main {
+  .selected-news {
+    li {
+      a:nth-child(1n) {
+        @include span-columns(4);
+      }
+
+      a:nth-child(2n) {
+        @include span-columns(8);
+      }
+    }
+  }
+}

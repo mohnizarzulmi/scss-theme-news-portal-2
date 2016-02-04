@@ -1,0 +1,24 @@
+section#l-landing-minisite-main {
+	li {
+		@include outer-container;
+	}
+
+	li > a {
+		@include span-columns(5);
+
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	li > div {
+		@include span-columns(7);
+
+		.topic-and-time {
+			span:nth-child(1) {
+				text-transform: uppercase;
+			}
+		}
+	}
+}

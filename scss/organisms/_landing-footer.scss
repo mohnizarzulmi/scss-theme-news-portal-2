@@ -1,0 +1,23 @@
+#l-landing-main-wrapper,
+#l-landing-minisite-main-wrapper {
+	aside {
+		footer {
+			@include outer-container;
+
+			ul {
+				@include span-columns(4);
+			}
+
+			ul:nth-child(3) {
+				@include omega;
+			}
+
+			span {
+				@include span-columns(12);
+				margin-top: 15px;
+				padding-top: 15px;
+				border-top: solid 1px #ccc;
+			}
+		}
+	}
+}

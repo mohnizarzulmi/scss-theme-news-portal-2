@@ -1,0 +1,12 @@
+#l-landing-minisite-main-wrapper {
+	@include outer-container;
+
+	section {
+		@include span-columns(8);
+	}
+
+	aside {
+		@include span-columns(4);
+	}
+
+}

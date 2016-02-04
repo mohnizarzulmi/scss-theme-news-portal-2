@@ -1,0 +1,15 @@
+aside#l-landing-main {
+  .infographics {
+    ul {
+      @include outer-container;
+    }
+
+    li {
+      @include span-columns(6);
+    }
+
+    li:nth-child(2n) {
+      @include omega;
+    }
+  }
+}
