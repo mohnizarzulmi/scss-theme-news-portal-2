@@ -1,0 +1,192 @@
+<!doctype html>
+<html>
+<head>
+  <title>Read news - ZoneOke</title>
+  <link rel="stylesheet" type="text/css" href="fonts/stylesheet.css">
+  <link href="css/styles.css" rel="stylesheet"/>
+  <link href="css/themes/default.css" rel="stylesheet"/>
+  <script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
+  <script type="text/javascript" src="js/zoneoke.js"></script>
+  <script type="text/javascript" src="js/angular.min.js"></script>
+  <script type="text/javascript">
+    var okezone = angular.module('okezone', []);
+    okezone.controller('okezone_controller', function ($scope) {
+      $scope.n  = 6;
+      $scope.quantity = function(num) {
+        return new Array(num);
+      }
+    });
+  </script>
+</head>
+<body ng-app="okezone" ng-controller="okezone_controller">
+
+<header class="navigation" role="banner">
+
+  <div id="logo-top">
+    <div>blalb</div>
+    <div><img src="images/292x80.png"></div>
+    <div>blalblabl</div>
+  </div>
+
+  <div class="navigation-wrapper">
+    <a href="javascript:void(0)" class="logo">
+      <img src="images/placeholder_logo_1.png" alt="Logo Image">
+    </a>
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+        <li class="nav-link"><a href="javascript:void(0)">News</a></li>
+        <li class="nav-link"><a href="javascript:void(0)">Bisnis</a></li>
+        <li class="nav-link"><a href="javascript:void(0)">Lifestyle</a></li>
+        <li class="nav-link"><a href="javascript:void(0)">Celebrity</a></li>
+        <li class="nav-link"><a href="javascript:void(0)">Bola</a></li>
+        <li class="nav-link"><a href="javascript:void(0)">Sports</a></li>
+        <li class="nav-link"><a href="javascript:void(0)">Techno</a></li>
+        <li class="nav-link"><a href="javascript:void(0)">Autos</a></li>
+        <li class="nav-link more"><a href="javascript:void(0)">More</a>
+          <ul class="submenu">
+            <li><a href="javascript:void(0)">Submenu Item</a></li>
+            <li><a href="javascript:void(0)">Another Item</a></li>
+            <li class="more"><a href="javascript:void(0)">Item with submenu</a>
+              <ul class="submenu">
+                <li><a href="javascript:void(0)">Sub-submenu Item</a></li>
+                <li><a href="javascript:void(0)">Another Item</a></li>
+              </ul>
+            </li>
+            <li class="more"><a href="javascript:void(0)">Another submenu</a>
+              <ul class="submenu">
+                <li><a href="javascript:void(0)">Sub-submenu</a></li>
+                <li><a href="javascript:void(0)">An Item</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <!--
+    <div class="navigation-tools">
+      <div class="search-bar">
+        <form role="search">
+          <input type="search" placeholder="Enter Search" />
+          <button type="submit">
+            <img src="images/search-icon.png" alt="Search Icon">
+          </button>
+        </form>
+      </div>
+    </div>
+    -->
+  </div>
+</header>
+
+<div id="l-article">
+
+  <div id="top-search-form">
+    <form>
+      <input type="text" placeholder="Search Okezone">
+    </form>
+  </div>
+
+  <article>
+    <p class="type">Article Type</p>
+
+    <h1>Bank Permata Hanya Targetkan Pertumbuhan Kredit 10%</h1>
+
+    <img src="images/800x440.png">
+
+    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, perferendis! Odit quisquam <code>code block</code> dicta illum ipsa quod natus iure aliquid necessitatibus veritatis, itaque magnam aliquam, dolorum nostrum nemo, explicabo perspiciatis nobis!</h2>
+
+    <p class="date">30 Mar 2014</p>
+
+    <p><span>Lorem ipsum dolor sit amet</span>, consectetur adipisicing elit. Consequatur a, ullam, voluptatum incidunt neque doloremque vel inventore distinctio laudantium harum</a> illo quam nulla dolor alias iure impedit! Accusamus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, a, ullam, voluptatum incidunt neque porro numquam doloremque vel inventore distinctio laudantium harum illo quam nulla dolor alias iure impedit.
+      <a href="javascript:void(0)" class="read-more">Read More <span>&rsaquo;</span></a>
+    </p>
+
+    <h3>Subheading lorem</h3>
+
+    <p>AKARTA - PT Bank Permata Tbk (BNLI) menargetkan pertumbuhan kredit sekitar 10 persen. Pertumbuhan kredit tersebut akan difokuskan ke sektor infrastruktur, konsumer dan beberapa sektor yang menjadi prioritas utama pembangun pemerintah</p>
+
+    <p>Direktur Utama Bank Permata Roy Arman Arfandy mengaku tertarik dengan sektor infrastruktur lantaran upaya pemerintah yang tengah menggenjot proyek-proyek pembangunan infrastruktur. Dia juga memandang hal itu mempunyai efek domino sehingga sektor penunjang infrastruktur juga menarik untuk dibidik sebagai tujuan penyaluran kredit tahun ini.</p>
+
+    <p>"Infrastruktur kita akan masuk, industri penunjang infrastruktur juga kita akan masuk. Kita akan lihat mana yang cocok yang bisa kita masuk," katanya di Gedung BEI, Jakarta (4/2/2016).</p>
+
+    <p>Kemudian untuk sektor konsumer, Roy memandang masyarakat Indonesia masih belum bisa lepas dari label konsumtif. Sehingga pembiayaan di sektor konsumer dianggap masih cukup menjanjikan. Meskipun penyaluran kredit Bank Permata di sektor konsumer sedikit turun di tahun lalu.</p>
+
+    <p>"Konsumtif turun enggak banyak. Kemarin turun karena pertubuhan otomotifnya turun, jadi otomatis kredit di sektor konsumtif turun. Tapi itu rata-rata sekitar antara 5-10 persen dari total kredit kami," imbuhnya.</p>
+
+    <p>Terakhir, Roy mengaku pihaknya akan mencoba berkontribusi dalam pembangunan ekonomi nasional. Oleh karena itu perseroan juga berencana akan menyalurkan kredit ke sektor-sektor yang telah diprioritaskan oleh pemerintah dan Otoritas Jasa Keuangan (OJK). Seperti salah satunya di sektor maritim.</p>
+
+    <p>"Di sektor maritim kita sudah masuk tahun lalu dan kita akan kembangkan kredit kita di maritim, walaupun saat ini belum banyak. Tapi kami fokus untuk meningkatkan yang lebih baik lagi. Tapi sementara ini secara overall kredit kami cukup terdiversifikasi. Jadi ga ada fokus ke sektor tertentu. Ini memang konservatif yang kita lakukan dari beberapa tahun yang lalu. Jadi kita ga bergantung terhadap sektor industri tertentu saja," pungkasnya.</p>
+
+    <hr>
+
+    <p class="author">(mrt)</p>
+
+  </article>
+
+  <aside>
+    <div class="hot-topics">
+      <h3>Hot Topics</h3>
+      <ul>
+        <li ng-repeat="j in [1,2,3,4,5] track by $index"><a>#Some Topics</a></li>
+      </ul>
+    </div>
+    <div class="selected-news">
+      <h3>Selected News</h3>
+      <ul>
+        <li ng-repeat="j in [1,2,3,4,5,6,7] track by $index">
+          <a href="">
+            <img src="images/100x52.png">
+          </a>
+          <a href=""><h4>Rusia Berang Pesawat Observasinya Dilarang Masuk Wilayah Turki</h4></a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="banner-ads">
+      <a href="#">
+        <img src="images/300x250.png">
+      </a>
+    </div>
+
+    <div class="banner-ads">
+      <a href="#">
+        <img src="images/300x250.png">
+      </a>
+    </div>
+
+    <footer>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Bisnis</a></li>
+        <li><a href="#">Lifestyle</a></li>
+        <li><a href="#">Celebrity</a></li>
+        <li><a href="#">Bola</a></li>
+        <li><a href="#">Sports</a></li>
+        <li><a href="#">Techno</a></li>
+      </ul>
+      <ul>
+        <li><a href="#">Rubrik</a></li>
+        <li><a href="#">Warung Kopi</a></li>
+        <li><a href="#">Infografis</a></li>
+        <li><a href="#">Foto</a></li>
+        <li><a href="#">Video</a></li>
+      </ul>
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Redaksi</a></li>
+        <li><a href="#">Kotak Pos</a></li>
+        <li><a href="#">Karier</a></li>
+        <li><a href="#">Info Iklan</a></li>
+        <li><a href="#">Disclaimer</a></li>
+      </ul>
+
+      <span>
+        &copy 2007 - 2016 zoneoke.com, All Rights Reserved
+      </span>
+    </footer>
+  </aside>
+</div>
+
+</body>
+</html>
