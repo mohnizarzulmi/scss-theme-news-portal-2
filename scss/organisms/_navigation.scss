@@ -19,8 +19,9 @@ header.navigation {
   $navigation-submenu-width: 12em;
   $horizontal-bar-mode: $large-screen;
 
-  background-color: $navigation-background;
-  border-bottom: 1px solid darken($navigation-background, 10);
+  ///background-color: $navigation-background;
+  ///border-bottom: 1px solid darken($navigation-background, 10);
+  @include outer-container;
   min-height: $navigation-height;
   width: 100%;
   z-index: 999;
@@ -30,6 +31,8 @@ header.navigation {
     @include outer-container;
     position: relative;
     z-index: 9999;
+    background-color: $navigation-background;
+    border-bottom: 1px solid darken($navigation-background, 10);
   }
 
   .logo {
@@ -336,4 +339,12 @@ header.navigation {
       }
     }
   }
+
+  #logo-top {
+    @include outer-container;
+    div {
+      @include span-columns(4);
+    }
+  }
+
 }
