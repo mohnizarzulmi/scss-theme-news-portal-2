@@ -2,6 +2,23 @@ aside#l-landing-main,
 aside#l-landing-minisite-main,
 #l-article aside {
 	.hot-topics {
-		
+		margin-bottom: 50px;
+
+		a {
+			display: block;
+			padding: 10px 20px;
+
+			&:hover {
+				background: #ccc;
+			}
+		}
+
+		li {
+			border-bottom: solid 2px #ccc;
+		}
+
+		li:last-child {
+			border-bottom: none;
+		}
 	}
 }
