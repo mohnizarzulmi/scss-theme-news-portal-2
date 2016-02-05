@@ -1,24 +1,28 @@
 aside#l-landing-main,
 aside#l-landing-minisite-main,
 #l-article aside {
-	.hot-topics {
-		margin-bottom: 50px;
+  .hot-topics {
+    margin-bottom: 50px;
 
-		a {
-			display: block;
-			padding: 10px 20px;
+    h3 {
+      font-size: $em-base * 1.3;
+    }
 
-			&:hover {
-				background: #ccc;
-			}
-		}
+    a {
+      display: block;
+      padding: 10px 20px;
 
-		li {
-			border-bottom: solid 2px #ccc;
-		}
+      &:hover {
+        background: #ccc;
+      }
+    }
 
-		li:last-child {
-			border-bottom: none;
-		}
-	}
+    li {
+      border-bottom: solid 2px #ccc;
+    }
+
+    li:last-child {
+      border-bottom: none;
+    }
+  }
 }
