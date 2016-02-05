@@ -5,10 +5,10 @@ aside#l-landing-minisite-main,
     margin-bottom: 20px;
 
     h3 {
-      border-bottom: solid 3px #ccc;
-      margin-top: 20px;
-      padding-bottom: 20px;
       font-size: $em-base * 1.3;
+      border-top: solid 1px #ccc;
+      border-bottom: solid 3px #ccc;
+      padding: 10px 0 10px 0;
     }
 
     li {
