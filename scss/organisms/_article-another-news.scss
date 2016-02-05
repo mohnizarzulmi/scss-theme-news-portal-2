@@ -1,10 +1,21 @@
 #l-article-another-news {
+	margin-bottom: 30px;
+
+	h3 {
+		padding-bottom: 13px;
+		border-bottom: solid 3px #ccc;
+	}
+
 	ul {
 		@include outer-container;
 	}
 
 	li {
 		@include span-columns(3);
+
+		h4 {
+			font-size: $em-base / 1.2;
+		}
 	}
 
 	li:nth-child(4n) {

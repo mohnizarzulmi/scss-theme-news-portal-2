@@ -1,0 +1,17 @@
+#l-article-recommended-news {
+  margin-bottom: 30px;
+
+  h3 {
+    padding-bottom: 13px;
+    border-bottom: solid 3px #ccc;
+  }
+
+  a {
+    font-size: $em-base / 1.1;
+  }
+
+  li {
+    padding: 8px 0px;
+    border-bottom: solid 1px #ccc;
+  }
+}
