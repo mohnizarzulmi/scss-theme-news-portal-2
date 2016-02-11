@@ -1,5 +1,6 @@
 section#l-landing-main {
-	li {
+	li.news-item,
+	li.views-row {
 		@include span-columns(4);
 
 		&:nth-child(1n),
@@ -50,17 +51,31 @@ section#l-landing-main {
 
 		span:nth-child(1) {
 			margin-right: 10px;
-			text-transform: uppercase;
 		}
-	}
 
-	a {
-		@include clearfix;
-		display: block;
+		a {
+			@include clearfix;
+			display: block;
+			font-weight: bold;
 
-		img {
+			img {
+				width: 100%;
+				height: auto;
+			}
+		}
+
+		figure {
+			margin-left: 0;
 			width: 100%;
 			height: auto;
 		}
+
+		span.field-content {
+			a {
+				font-weight: bold;
+			}
+		}
 	}
+
+	
 }

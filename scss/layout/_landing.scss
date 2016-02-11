@@ -1,7 +1,7 @@
 #l-landing-main-wrapper {
 	@include outer-container;
 
-	section {
+	section#l-landing-main {
 		@include span-columns(9);
 		@include shift(3);
 	}

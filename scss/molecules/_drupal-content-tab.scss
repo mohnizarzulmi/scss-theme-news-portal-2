@@ -1,0 +1,17 @@
+ul.tabs-primary {
+  @include clearfix;
+
+  li.tabs-primary__tab {
+    @include button;
+
+    a {
+      color: #fff;
+    }
+  }
+
+  li.is-active {
+    a {
+      color: yellow;
+    }
+  }
+}

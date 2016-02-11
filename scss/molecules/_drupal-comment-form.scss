@@ -1,0 +1,88 @@
+section#comments {
+	padding: 10px;
+	border: solid 1px #b0b0b0;
+	background: #f0f0f0;
+	margin-bottom: 20px;
+
+	h2.comments__form-title {
+		margin-top: 20px;
+	}
+
+	form.comment-form {
+		input[type="text"], 
+		textarea {
+			border-radius: 0;
+		}
+
+		input[type="submit"] {
+			@include button;
+
+			margin-right: 10px;
+		}
+
+		.form-textarea-wrapper {
+			margin-bottom: 10px;
+		}
+
+		.form-item-subject {
+			display: none;
+		}
+	}
+
+	article.comment {
+		border-top: solid 1px #b0b0b0;
+		border-left: solid 1px #b0b0b0;
+		border-right: solid 1px #b0b0b0;
+	}
+
+	article.comment:last-child {
+		border-bottom: solid 1px #b0b0b0;
+	}
+
+	article.comment {
+		background: #fff;
+		padding: 15px;
+
+		h3.comment-title {
+			display: none;
+		}
+
+		ul.links {
+			margin-top: 15px;
+
+			li.comment-delete,
+			li.comment-edit {
+				display: inline-block;
+
+				a {
+					@include button;
+
+					font-size: $em-base * 0.8;
+				}
+			}
+
+			li.comment-reply {
+				display: none;
+			}
+		}
+
+		header {
+			p.submitted {
+				span {
+					a.username {
+						display: inline-block;
+					}
+
+					time {
+						display: inline-block;
+					}
+				}
+
+				a.permalink {
+					display: none;
+				}
+			}
+		}
+	}
+}
+
