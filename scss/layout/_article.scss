@@ -1,7 +1,7 @@
-#l-article {
+body.not-front #l-landing-main-wrapper {
 	@include outer-container;
 
-	#l-article-content {
+	section#l-landing-main {
 		@include span-columns(8);
 		@include shift(4);
 
